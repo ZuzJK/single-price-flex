@@ -1,0 +1,146 @@
+        body,
+        html {
+
+            height: 100%;
+            font-family: "Karla";
+        }
+        * {
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100%;
+            background-color: hsl(204, 43%, 93%);
+            padding: 25px;
+        }
+
+        .title--primary {
+
+            color: hsl(179, 62%, 43%);
+            margin-bottom: 20px;
+
+        }
+
+        .sub-title {
+
+            margin-bottom: 20px;
+
+        }
+
+        .sub-title--green {
+            color: #bfdf32;
+        }
+
+        .content--gray {
+            color: #a2a7ad;
+        }
+
+        .content--lightgreen {
+            color: #a6f6f3;
+        }
+
+        .content {
+            line-height: 1.6;
+        }
+
+        .button {
+            background-color: #bfdf32;
+            color: #f8ffdd;
+            font-weight: 700;
+            padding: 15px 55px;
+            border-color: transparent;
+            border-radius: 5px;
+            margin-top: 30px;
+            box-shadow: 2px 5px 15px #898989;
+        }
+
+        .card {
+            box-shadow: 2px 5px 15px #ddd;
+            border-radius: 20px;
+        }
+        
+        .box {
+            background-color: white;
+            padding: 30px;
+        }
+        
+        .item {
+            padding: 20px;
+            color: white;
+        }
+        
+        .item1 {
+            background-color: #2bb3b1;
+            display:flex;
+            flex-direction: column;
+         
+            
+        }
+        
+        .item2 {
+            background-color: #4abebd;
+            color:#e9fbfb;
+        }
+        
+        .price {
+            display: flex;
+            align-items: center;
+            margin: 15px 0;
+        }
+
+        .price--value {
+
+            font-size: 2.5em;
+            font-weight: 700;
+
+        }
+
+        .price--details {
+            color: #66d4d3;
+            margin-left: 15px;
+
+        }
+
+        .box {
+            border-radius: 5px 5px 0 0;
+        }
+
+        .item2 {
+            border-radius: 0 0 5px 5px;
+        }
+
+        @media screen and (min-width: 992px) {
+            .box {
+                border-radius: 20px 20px 0 0;
+            }
+
+            .box2 {
+                display: flex;
+                width: 100%;
+            }
+
+            .item {
+                padding: 40px;
+            }
+
+            .item1 {
+                flex: 1;
+                border-radius: 0 0 0 20px;
+            }
+
+            .item2 {
+                flex: 1;
+                border-radius: 0 0 20px;
+            }
+
+            .content {
+                line-height: 1.6;
+            }
+
+            .price {
+                margin: 20px 0;
+            }
+        }
