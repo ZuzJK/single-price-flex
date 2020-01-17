@@ -115,7 +115,7 @@
 
         @media screen and (min-width: 992px) {
             .box {
-                border-radius: 20px 20px 0 0;
+                border-radius: 10px 10px 0 0;
             }
 
             .box2 {
@@ -129,12 +129,12 @@
 
             .item1 {
                 flex: 1;
-                border-radius: 0 0 0 20px;
+                border-radius: 0 0 0 10px;
             }
 
             .item2 {
                 flex: 1;
-                border-radius: 0 0 20px;
+                border-radius: 0 0 10px;
             }
 
             .content {
